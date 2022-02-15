@@ -1,0 +1,64 @@
+body{
+    font-family: "roboto", sans-serif;
+    min-height: 100vh;
+}
+.header, .h-main, .footer{
+    background-color: #1F2937;
+    color: white;
+}
+
+.left{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.b1{
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #1F2937;
+}
+
+.hln{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero-main{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+}
+
+.title-2{
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.first-mid{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    font-weight: lighter;
+}
+
+.four-mid{
+    background-color: #3882F6;
+    color: white;
+}
+
+.Thor{
+    font-style: bold;
+    font-weight: bolder;
+}
