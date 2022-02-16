@@ -13,44 +13,25 @@ body{
     height: 120px;
     width: auto;
     display: flex;
-    flex: 1;
-    background-color: lightcoral;
+    justify-content: space-between;
+}
+
+.h{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top: 13px;
 }
 
 ul{
-   display: flex;
-   flex: 1;
-   flex-direction: row;
-   justify-content: center;
-   background-color: lightgray;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    column-gap: 20px;
 }
 
 li{
     list-style-type: none;
-}
-
-.left{
-    display: flex;
-    justify-content: center;
-    flex: 1 1 30%;
-    background-color: lightpink;
-
-}
-
-.hln{
-    margin-right: 20px;
-}
-
-.main{
-    display: flex;
-    flex: 1;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-}
-
-.left{
-    font-size: 24px;
-    color: #F9FAF8;
+    
 }
 
 .b1{
@@ -64,6 +45,7 @@ li{
     font-size: 18px;
     color: #E5E7EB;
 }
+
 .hero-main{
     font-size: 48px;
     font-weight: bolder;
@@ -94,12 +76,34 @@ button{
     font-weight: lighter;
 }
 
-.four-mid{
-    background-color: #3882F6;
-    color: white;
-}
-
 .Thor{
     font-style: bold;
     font-weight: bolder;
+}
+
+.four-mid{
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-box{
+    width: 1150px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    flex: 1;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
 }
