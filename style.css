@@ -1,13 +1,18 @@
 body{
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    max-width: 1500px;
 }
+
+
 .header, .h-main, .footer{
     background-color: #1F2937;
     color: white;
 }
+
+/* Header */
 
 .header{
     height: 120px;
@@ -19,7 +24,9 @@ body{
 .h{
     font-size: 24px;
     color: #F9FAF8;
-    margin-top: 13px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bold;
 }
 
 ul{
@@ -38,6 +45,8 @@ li{
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* Section 1 */
 
 .hero-main{
     font-size: 48px;
@@ -68,18 +77,34 @@ button{
     border: 1px solid #1f2937;
 }
 
+/* Section 3 */
+
+.three-mid{
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
 .quote{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    background-color: #E5E7EB;
     font-weight: lighter;
+    width: 830px;
+    align-self: center;
 }
 
-.Thor{
-    font-style: bold;
-    font-weight: bolder;
+.thor{
+    font-weight: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 600px;
 }
+
+/* Section 4 */
 
 .four-mid{
     height: 350px;
@@ -121,6 +146,8 @@ button{
     width: 120px;
     font-size: large;
 }
+
+/* Footer */
 
 .footer{
     padding: 40px;
