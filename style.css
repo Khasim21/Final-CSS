@@ -39,9 +39,7 @@ body{
     height: 90px;
     font-weight: bolder;
     display: flex;
-    justify-content: center;
-    background-color: lightpink;
-    flex: 1;
+    justify-content: space-around;
     flex-wrap: nowrap;
 }
 
@@ -50,6 +48,7 @@ body{
     color: #F9FAF8;
     display: flex;
     align-items: center;
+    margin-right: 400px;
 }
 
 .link{
@@ -81,9 +80,6 @@ li{
     color: #E5E7EB;
     height: 410px;
     display: flex;
-    justify-content: space-between;
-    flex: 1;
-    margin-left: 150px;
 }
 
 .bad-mid{
@@ -91,13 +87,13 @@ li{
     flex-flow: column nowrap;
     justify-content: center;
     row-gap: 5px;
+    flex: 1;
 }
 
 .hero-main{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-
     width: 500px;
     height: 120px;
     
@@ -117,10 +113,9 @@ li{
 }
 
 .pictoro-horse{
-    margin-right: 150px;
     border-radius: 50px;
     display: flex;
-    flex: 1 1 50%;
+    flex: 1 1 100%;
     align-items: center;
     justify-content: center;
 }
